@@ -11,11 +11,13 @@
 		<param-value>/WEB-INF/spring-servlet.xml</param-value>
 	</context-param>
 	<listener>
-		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+		<listener-class>
+		org.springframework.web.context.ContextLoaderListener
+		</listener-class>
 	</listener>
 	<!-- -->
 	 <servlet>
-		<servlet-name>app4</servlet-name>
+		<servlet-name>spring</servlet-name>
 		<servlet-class>
 			org.springframework.web.servlet.DispatcherServlet
 		</servlet-class>
@@ -23,7 +25,7 @@
 	</servlet>
     
 	<servlet-mapping>
-		<servlet-name>app4</servlet-name>
+		<servlet-name>spring</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
 	 
