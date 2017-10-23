@@ -44,7 +44,7 @@ public class DESImplementation4 extends JFrame {
 	 	
 	public DESImplementation4() {
 		
-		super("DES Algorithm Implementation by Jonathan");
+		super("DES Algorithm Implementation by Jonathan"); // This is changed from turned in paper
 		
 		textCypher.setEnabled(false);
 	    textPlain.setEnabled(false);
