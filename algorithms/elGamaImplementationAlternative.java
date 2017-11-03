@@ -1,5 +1,7 @@
 //implemented by fullarray
 
+//For the most part, this implementation deals for strings of numbers. Then, it computes the tasks necessary for encryption.
+
 import java.util.*;
 import java.math.BigInteger;
 
@@ -11,7 +13,7 @@ public class elGamaImplementationAlternative {
 		Random r = new Random();	
 		
 		// Get user input for p.
-		System.out.println("Enter the approximate value of the prime number for your El Gamal key.");
+		System.out.println("Enter the value of the prime number key.");
 		BigInteger p = getNextPrime(stdin.next());
 		
 		// Calculate a generator.
