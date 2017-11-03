@@ -1,0 +1,79 @@
+//implemented by fullarray
+
+import java.math.*;
+import java.util.*;
+import java.lang.String;
+import java.security.*;
+import java.io.*;
+
+public class elGamaImplementation extends Tools
+{
+    public static void main(String[] args) throws IOException
+    {
+        BigInteger p, b, c, secretKey;
+        Random sc = new SecureRandom();
+        secretKey = new BigInteger("12345678901234567890");
+        //
+        // public key calculation
+        //
+        System.out.println("secretKey = " + secretKey);
+        p = BigInteger.probablePrime(64, sc);
+        b = new BigInteger("3");
+        c = b.modPow(secretKey, p);
+        System.out.println("p = " + p);
+        System.out.println("b = " + b);
+        System.out.println("c = " + c);
+        //
+        // Encryption
+        //
+        System.out.print("Enter your Big Number message -->");
+        String s = Tools.GetString();
+        BigInteger X = new BigInteger(s);
+        BigInteger r = new BigInteger(64, sc);
+        BigInteger EC = X.multiply(c.modPow(r, p)).mod(p);
+        BigInteger brmodp = b.modPow(r, p);
+        System.out.println("Plaintext = " + X);
+        System.out.println("r = " + r);
+        System.out.println("EC = " + EC);
+        System.out.println("b^r mod p = " + brmodp);
+        //
+        // Decryption
+        //
+        BigInteger crmodp = brmodp.modPow(secretKey, p);
+        BigInteger d = crmodp.modInverse(p);
+        BigInteger ad = d.multiply(EC).mod(p);
+        System.out.println("\n\nc^r mod p = " + crmodp);
+        System.out.println("d = " + d);
+        System.out.println("Alice decodes: " + ad);
+
+    }
+}
+
+class Tools{
+     public static  String GetString() throws IOException {
+      BufferedReader stringIn = new BufferedReader (new InputStreamReader(System.in));
+      return  stringIn.readLine();
+     }// GetString
+
+     public  static  int  GetInt( ) throws IOException {
+       String aux = GetString();
+       return Integer.parseInt(aux);
+    }// GetInt
+
+    public  static  long GetLong( ) throws IOException {
+        String aux = GetString();
+        return Long.parseLong(aux);
+    }// GetInt
+
+    public  static char  GetChar( ) throws IOException {
+        String  aux = GetString();
+        return aux.charAt(0);
+    }// GetChar
+
+    public static  double  GetReal( ) throws IOException {
+       String  aux = GetString();
+       Double d  = new Double(aux) ;
+       return  d.doubleValue() ;
+    }// GetReal
+
+}
