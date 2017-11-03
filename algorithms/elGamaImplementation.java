@@ -2,7 +2,7 @@
 
 import java.math.*;
 import java.util.*;
-import java.lang.String;
+import java.lang.String; // this import is optional and may not be needed in some instances.
 import java.security.*;
 import java.io.*;
 
