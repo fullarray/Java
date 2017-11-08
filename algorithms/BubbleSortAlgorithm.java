@@ -6,7 +6,7 @@ public class BubbleSortAlgorithm
 		 *
 		 * First begin by declaring an unsorted array.
 		 * This array will be used as a test subject for this
-         * small implementation.
+         * small implementation. This new array below runs a new example.
 		 *
 		 */
 		Integer[] array = new Integer[]{10,11,16,17,3,5,60,3};
