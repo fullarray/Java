@@ -32,7 +32,7 @@ public class MergeSortAlgorithm
 		MergeSortProcessor(first);
 		MergeSortProcessor(second);
 		
-		//Merging both halfs together, overwriting to original array
+		//Merging  both halfs together, overwriting to original array
 		merging(first, second, list);
 		return list;
 	}
