@@ -32,7 +32,7 @@ public class DESImplementation {
 		24, 25, 26, 27, 28, 29,
 		28, 29, 30, 31, 32,  1
 	};
-	/* Permutation Function */
+	/* Permutation Function  */
 	static final int[] P = {
 		16,  7, 20, 21,
 		29, 12, 28, 17,
