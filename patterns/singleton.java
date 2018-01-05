@@ -1,7 +1,6 @@
 //A single message using the singleton pattern
 public class SingleThing{
 	private static SingleThing instance = new SingleThing();
-	
 	private SingleThing(){}
 	
 	public static SingleThing getInstance(){
