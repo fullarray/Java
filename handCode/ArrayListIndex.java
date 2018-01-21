@@ -5,7 +5,7 @@ public class ArrayListIndex{
 		ArrayList<String> l = new ArrayList<String>();
 		l.add("John");
 		l.add("Nate");
-		l.add("Herman");
+		l.add("Norman");
 		l.add("Omar");
 		System.out.println("Index of 'John': "+ l.indexOf("Herman"));
 		System.out.println("Index of 'John': "+ l.indexOf("Nate"));
