@@ -13,10 +13,9 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.entities.Users;
 import com.serviceapi.UsersService;
-import com.serviceimpl.UsersServiceImpl;
 
 @Controller
-@RequestMapping(value="users")
+@RequestMapping("/users")
 public class UsersController {
 
 	@Autowired
