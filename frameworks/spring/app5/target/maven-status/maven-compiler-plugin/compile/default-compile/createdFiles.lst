@@ -1,0 +1,9 @@
+com\herrj\config\WebConfig.class
+com\herrj\dao\UserDaoImp.class
+com\herrj\controller\UserController.class
+com\herrj\model\User.class
+com\herrj\config\AppConfig.class
+com\herrj\service\UserService.class
+com\herrj\service\UserServiceImp.class
+com\herrj\config\MyWebAppInitializer.class
+com\herrj\dao\UserDao.class
