@@ -19,7 +19,6 @@ public class BubbleSortAlgorithm
 		bubbleSortImplementation(array, 0, array.length);
 		
 		/*
-		 *
 		 * Last but not least, verify that the array 
 		 * is sorted by printing to screen.
 		 *
