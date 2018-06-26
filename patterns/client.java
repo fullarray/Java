@@ -5,7 +5,6 @@ public interface VendingMachineState
 }
 
 public class NoMoneyState implements VendingMachine{
-	
 	public void selectProductAndInsertMoney(int amount, String productName){
 		System.out.println(amount + "USD were inserted and " + productName + " was selected.");
 	}
