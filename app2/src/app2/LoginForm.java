@@ -23,7 +23,6 @@ public class LoginForm extends ActionForm {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-
 	@Override
 	public void reset(ActionMapping mapping, HttpServletRequest request) {
 		this.password = null;
