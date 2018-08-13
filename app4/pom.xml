@@ -71,7 +71,6 @@
             <version>${hibernate.version}</version>
         </dependency>
         
- 
         <!--MYSQL Connector -->
         <dependency>
             <groupId>mysql</groupId>
