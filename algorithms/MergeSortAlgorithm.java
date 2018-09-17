@@ -17,6 +17,7 @@ public class MergeSortAlgorithm
 	public static Comparable[] MergeSortProcessor(Comparable[] list)
 	{
 		//If list is empty, don't do anything.
+		//If list is empty, don't do anything.
 		if(list.length <= 1)
 		{
 			return list;
