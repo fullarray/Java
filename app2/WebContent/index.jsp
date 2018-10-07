@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Main Console Login</title>
+<title>Main Console Login App2</title>
 </head>
 <body>
 	<jsp:forward page="/login.jsp"></jsp:forward>
