@@ -3,6 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+/***
+  * Bouncy castle needs to be downloaded first and imported like below.
+**/
 package hybridencryptionschemeenhanced;
 
 import org.bouncycastle.jce.provider.BouncyCastleProvider;
