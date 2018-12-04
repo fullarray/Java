@@ -3,7 +3,6 @@ public class BubbleSortAlgorithm
 	public static void main(String[] args)
 	{
 		/*
-		 *
 		 * First begin by declaring an unsorted array.
 		 * This array will be used as a test subject for this
          * small implementation. This new array below runs a new example.
