@@ -10,7 +10,7 @@ public class MergeSortAlgorithm
 		//Declare MergeSorting algorithm function first.
 		MergeSortProcessor(b);
 		
-		//check the sorted array and output it
+		//check the sorts array and outputs it
 		System.out.println(Arrays.toString(b));
 	}
 	
