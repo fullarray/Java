@@ -5,8 +5,7 @@ public class BubbleSortAlgorithm
 		/*
 		 * First begin by declaring an unsorted array.
 		 * This array will be used as a test subject for this
-         * small implementation. This new array below runs a new example.
-		 *
+         	 * small implementation. This new array below runs a new example.
 		 */
 		Integer[] array = new Integer[]{10,11,16,17,3,5,60,3};
 		
@@ -20,7 +19,6 @@ public class BubbleSortAlgorithm
 		/*
 		 * Last but not least, verify that the array 
 		 * is sorted by printing to screen.
-		 *
 		 */
 		 System.out.prinln(Arrays.toString(array));
 	}
