@@ -11,12 +11,10 @@ public class ArrayListSynchronization{
 		numbers.add(14);
 		numbers.add(94);
 		numbers.add(11);
-		
 		numbers = Collections.synchronizedList(numbers);
 		
 		synchronized(numbers){
 			Iterator<Integer> ite = numbers.iterator();
-			
 			while(ite.hasNext()){
 				System.out.println(ite.next());
 			}
