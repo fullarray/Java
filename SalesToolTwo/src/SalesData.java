@@ -2,7 +2,7 @@
 public class SalesData {
 	int data[] = {0,4,42};
 	public void display() {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method
 		System.out.println("TODO: implement data display");
 	}
 
