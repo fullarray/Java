@@ -17,12 +17,13 @@ public static void main(String args[])
 { // Creating and initializing an LinkedList for sorting 
 LinkedList<Integer> singlyLinkedList = new LinkedList<Integer>();
 /**
-   singlyLinkedList.add(14); 
+singlyLinkedList.add(14); 
 singlyLinkedList.add(99); 
 singlyLinkedList.add(35); 
 singlyLinkedList.add(21); 
 singlyLinkedList.add(54); 
-
+singlyLinkedList.add(54); 
+singlyLinkedList.add(54); 
 
 */
   if(args.length <= 0){
