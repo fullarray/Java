@@ -22,9 +22,7 @@ public class elGamaImplementation extends Tools
         System.out.println("p = " + p);
         System.out.println("b = " + b);
         System.out.println("c = " + c);
-        //
         // Encryption
-        //
         System.out.print("Enter your Big Number message -->");
         String s = Tools.GetString();
         BigInteger X = new BigInteger(s);
