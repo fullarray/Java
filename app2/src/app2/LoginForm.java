@@ -10,7 +10,6 @@ public class LoginForm extends ActionForm {
 	public String getUserName() {
 		return userName;
 	}
-
 	public void setUserName(String userName) {
 		this.userName = userName;
 	}
