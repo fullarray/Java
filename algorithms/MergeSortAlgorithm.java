@@ -4,7 +4,7 @@ public class MergeSortAlgorithm
 {
 	public static void main(String[] args)
 	{
-		//declare an unsorted arrays
+		//declare an unsorted array
 		Integer[] b = {2,4,6,7,9,1};
 		
 		//Declare MergeSorting algorithm function first.
