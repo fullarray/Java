@@ -1,5 +1,5 @@
 /*
-	Created by Jonathan H. fullarray
+	Created by Jonathan H. and fullarray
 */
 
 import java.util.Base64;
