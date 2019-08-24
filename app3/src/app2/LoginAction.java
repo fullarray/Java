@@ -12,8 +12,7 @@ public class LoginAction extends Action {
 	@Override
 	public ActionForward execute(ActionMapping mapping, ActionForm form,
 			HttpServletRequest request, HttpServletResponse response)
-			throws Exception {
-		LoginForm loginForm = (LoginForm) form;
+			throws Exception {LoginForm loginForm = (LoginForm) form;
 
 		if (loginForm.getUserName() == null || loginForm.getPassword() == null
 				|| !loginForm.getUserName().equalsIgnoreCase("Mark")
