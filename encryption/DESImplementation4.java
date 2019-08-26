@@ -1,5 +1,5 @@
 /*
-	Created by Jonathan H. 2017 using open source technology.
+	Created by Jonathan H.  and fullarray 2017 using open source technology.
 */
 
 import java.io.*;
