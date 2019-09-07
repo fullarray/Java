@@ -10,7 +10,6 @@ public class ArrayListIteration{
 		numbers.add(26);
 		numbers.add(12);
 		numbers.add(95);
-		
 		System.out.println("Untouched ArrayList: "+ numbers.size());
 		
 		System.out.println("Iterating through ArrayList using Iterator<>: ");
