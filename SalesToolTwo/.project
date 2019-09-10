@@ -4,11 +4,8 @@
 	<comment></comment>
 	<projects>
 	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.jdt.core.javabuilder</name>
-			<arguments>
-			</arguments>
+	<buildSpec><buildCommand><name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments></arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
