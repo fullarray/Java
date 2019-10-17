@@ -21,7 +21,7 @@ public class DESImplementation {
 		34, 2, 42, 10, 50, 18, 58, 26,
 		33, 1, 41,  9, 49, 17, 57, 25
 	};
-	/* Expansion Permutation */
+	/* Expansion Permutations */
 	static final int[] E = {
 		32,  1,  2,  3,  4,  5,
 		4,  5,  6,  7,  8,  9,
