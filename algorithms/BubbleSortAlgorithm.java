@@ -8,14 +8,12 @@ public class BubbleSortAlgorithm
          	 * small implementation. This new array below runs a new ex
 		 */
 		Integer[] array = new Integer[]{10,11,16,17,3,5,60,3};
-		
 		/*
 		 * Declare a function that sort the array above
 		 * using the algorithm definition of bubble sort.
 		 * Once declare use it to sort the array declared above.
 		 */
 		bubbleSortImplementation(array, 0, array.length);
-		
 		/*
 		 * Last but not least, verify that the array 
 		 * is sorted by printing to screen.
