@@ -6,10 +6,8 @@ public class MergeSortAlgorithm
 	{
 		//declare an unsorted array
 		Integer[] b = {2,4,6,7,9,1};
-		
 		//Declare MergeSorting algorithm function first.
 		MergeSortProcessor(b);
-		
 		//check the sorts array and outputs it
 		System.out.println(Arrays.toString(b));
 	}
