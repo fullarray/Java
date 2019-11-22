@@ -6,9 +6,7 @@ class SearchElementInArray
 	{
 		String key = "Smith";
 		String[] list = new String[3];
-		
 		Console cnsl = System.console();
-		
 		for(int i=0; i<3; i++)
 		{
 			list[i] = cnsl.readLine("Enter a name: ");
