@@ -1,4 +1,4 @@
-//implemented by fullarray
+// implemented by fullarray
 import java.math.*;
 import java.util.*;
 import java.lang.String; // this import is optional and may not be needed in some instances.
@@ -6,8 +6,7 @@ import java.security.*;
 import java.io.*;
 
 public class elGamaImplementation extends Tools
-{
-    public static void main(String[] args) throws IOException
+{    public static void main(String[] args) throws IOException
     {
         BigInteger p, b, c, secretKey;
         Random sc = new SecureRandom();
