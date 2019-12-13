@@ -11,7 +11,7 @@ public class DESShorterVersion {
     Security.addProvider(new org.bouncycastle.jce.provider.BouncyCastleProvider());
     SecretKey key = KeyGenerator.getInstance("DES").generateKey();
 
-    // for CBC; must be 8 bytes
+    // for CBC; must be 8 bytess
     byte[] initVector = new byte[] { 0x10, 0x10, 0x01, 0x04, 0x01, 0x01, 0x01, 0x02 };
 
     AlgorithmParameterSpec algParamSpec = new IvParameterSpec(initVector);
