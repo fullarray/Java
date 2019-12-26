@@ -2,8 +2,7 @@
 <projectDescription>
 	<name>SalesToolTwo</name>
 	<comment></comment>
-	<projects>
-	</projects>
+	<projects>app	</projects>
 	<buildSpec><buildCommand><name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments></arguments>
 		</buildCommand>
