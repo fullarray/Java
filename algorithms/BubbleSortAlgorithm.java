@@ -1,6 +1,5 @@
 public class BubbleSortAlgorithm
-{
-	public static void main(String[] args)
+{public static void main(String[] args)
 	{
 		/*
 		 * First begin by declaring an unsorted array.
