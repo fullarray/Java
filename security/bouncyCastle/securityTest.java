@@ -7,7 +7,7 @@ public class securityTest{
             System.out.println("Bouncy Castle is NOT installed");
         }
         else{
-            System.out.println("Bouncy Castle is installed");
+            System.out.println("Bouncy Castle is install");
         }
     }
 }
