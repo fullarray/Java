@@ -1,4 +1,3 @@
-
 class dictionaryinjava{
 
 public void main (String [] args){
