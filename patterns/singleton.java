@@ -1,4 +1,4 @@
-//A single message using the singleton pattern
+//A single message using the singleton patterns
 public class SingleThing{
 	private static SingleThing instance = new SingleThing();
 	private SingleThing(){}
