@@ -1,5 +1,4 @@
 CREATE DATABASE springEmployees;
-
 use springEmployees;
 
 CREATE TABLE `EMP_TBL` (
