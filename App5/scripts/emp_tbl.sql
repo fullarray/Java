@@ -1,5 +1,7 @@
 CREATE DATABASE IF NOT EXISTS springEmployees2;
+
 use springEmployees2;
+
 CREATE TABLE `EMP_TBL` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` varchar(45) NOT NULL,
