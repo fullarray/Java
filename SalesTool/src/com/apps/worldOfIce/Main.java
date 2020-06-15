@@ -5,7 +5,6 @@ public class Main {
 		displayGreeting();
 		data.display();
 	}
-	
 	private static void displayGreeting(){
 		System.out.println("HELLO HAPPY SALES PEOPLE!");
 		System.out.println("This APP SHOWS SALES DATA");
@@ -13,6 +12,7 @@ public class Main {
 		System.out.println("Test 1");
 		System.out.println("Test 2");
 		System.out.println("Test 3");
+		System.out.println("Test 4");
 	}
 
 }
