@@ -7,7 +7,7 @@
 <title>Main Console Login</title>
 </head>
 <body>
-	<!--Entry point and page to be served-->
+	<!--Entries point and page to be served-->
 	<jsp:forward page="/login.jsp"></jsp:forward>
 </body>
 </html>
