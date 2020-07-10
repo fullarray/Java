@@ -7,6 +7,7 @@ public class ArrayListIndex{
 		l.add("Nate");
 		l.add("Norman");
 		l.add("Omar");
+		l.add("Mark");
 		System.out.println("Index of 'John': "+ l.indexOf("Herman"));
 		System.out.println("Index of 'John': "+ l.indexOf("Nate"));
 		System.out.println("Index of 'John': "+ l.indexOf("John"));
