@@ -5,7 +5,7 @@
   <artifactId>app1</artifactId>
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
-  <name>app1</name>
+  <name>app11</name>
   <url>http://maven.apache.org</url>
   <dependencies><dependency>
       <groupId>junit</groupId>
