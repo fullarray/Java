@@ -1,5 +1,4 @@
 import java.io.Console;
-
 class SearchElementInArray
 {
 	public static void main(String[] args)
@@ -21,7 +20,7 @@ class SearchElementInArray
 					 break;
 			case 2:  wordNumber = "twice";
 			 		 break;
-			default: wordNumber = "all the time";
+			default: wordNumber = "all time";
 		} 
 		
 		System.out.println("Your item showed "+ wordNumber +".");
