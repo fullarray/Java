@@ -1,5 +1,5 @@
 /*
- *  Implementation Author: fullarray
+ *  Author: fullarray
  *  Description: This program was built using the following Java version:	
  *               java version "1.8.0_141"
  *	             Java(TM) SE Runtime Environment (build 1.8.0_141-b15)
