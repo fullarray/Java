@@ -4,7 +4,6 @@ public class Main {
 		displayGreeting();
 		data.display();
 	}
-	
 	private static void displayGreeting(){
 		System.out.println("APP SHOWS SALES");
 		System.out.println("Test 1");
