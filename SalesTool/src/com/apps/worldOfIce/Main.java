@@ -5,8 +5,9 @@ public class Main {
 		displayGreeting();
 		data.display();
 	}
+	
 	private static void displayGreeting(){
-		System.out.println("HELLO HAPPY SALES PEOPLE!");
+		System.out.println("HELLO HAPPY SALES");
 		System.out.println("This APP SHOWS SALES DATA");
 		
 		System.out.println("Test 1");
