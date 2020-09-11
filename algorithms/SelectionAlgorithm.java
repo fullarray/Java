@@ -1,9 +1,8 @@
 import java.util.Comparator;
-
 public class Selection
 {
 	private Selection()
-	{  }
+	{}
 	public static void sort(Comparable[] array)
 	{
 		if(array == null)
