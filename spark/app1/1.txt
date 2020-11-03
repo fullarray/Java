@@ -1,0 +1,4 @@
+val x =sc.textFile("test1.txt")
+
+x.take(11).foreach(println)
+
