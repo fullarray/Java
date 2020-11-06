@@ -1,10 +1,7 @@
 //implemented by fullarray
-
 //For the most part, this implementation deals for strings of numbers. Then, it computes the tasks necessary for encryption.
-
 import java.util.*;
 import java.math.BigInteger;
-
 public class elGamaImplementationAlternative {
 		
 	public static void main(String[] args) {
