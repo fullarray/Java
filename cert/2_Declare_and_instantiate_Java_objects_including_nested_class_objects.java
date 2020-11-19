@@ -1,11 +1,14 @@
 
-public 2_Declare_and_instantiate_Java_objects_including_nested_class_objects{
+public class 2_Declare_and_instantiate_Java_objects_including_nested_class_objects{
+	
+	String model;
+	
+	public Car(String model){
+		this.model = model;
+	}
+	
 	public static main void(String [] args){
-		Integer num = 5;
-		Double price = 1.99;
-		Character initials = 'AJ';
-		System.out.println(num);
-		System.out.println(price);
-		System.out.println(initials);
+		Car lambo = new Car("New lambo");
+		lambo = null; // garbage collection. Part of object life
 	}
 }
