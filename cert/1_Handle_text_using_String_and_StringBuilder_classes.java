@@ -1,4 +1,4 @@
-// Wrapper classes
+// Wrapper class
 import java.text;
 import java.util.*;
 
