@@ -23,7 +23,7 @@ public 1_Use_local_variable_type_inference{
 		(s1, s2) -> s1 + s2;
 		
 		
-		//
+		
 		// java annotations can only work with explicit types, 
 		// "var" in this case
 		//
