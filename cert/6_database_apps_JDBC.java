@@ -10,8 +10,7 @@ public objective_6{
 	public static void main(String [] args){
 		String url = "jdbc:mysql://localhost:3306/test-app-db?useSSL=false";
 		String user = "testuser";
-		String password = "password";
-		
+		String password = "password";		
 		String query = "SELECT VERTSION()";
 		
 		try(Connection con = DriveManager.getConnection(url,user,password);
