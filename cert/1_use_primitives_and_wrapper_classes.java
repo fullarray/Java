@@ -7,7 +7,6 @@
 // Double
 // Boolean
 // Character
-
 public 1_use_primitives_and_wrapper_classes{
 	public static main void(String [] args){
 		Integer num = 5;
