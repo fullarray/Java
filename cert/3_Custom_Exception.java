@@ -6,7 +6,7 @@ class 3_Custom_Exception{
 			System.out.println("Welcome to vote");
 	}
 	
-	// java 11
+	// in java 11
 	public static void main(String[] args){
 		try{
 			validate(15);
