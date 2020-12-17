@@ -1,8 +1,6 @@
 
 public class 2_Declare_and_instantiate_Java_objects_including_nested_class_objects{
-	
 	String model;
-	
 	public Car(String model){
 		this.model = model;
 	}
