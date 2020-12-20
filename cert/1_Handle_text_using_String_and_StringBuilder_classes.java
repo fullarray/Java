@@ -8,7 +8,7 @@ public 1_Handle_text_using_String_and_StringBuilder_classes{
 		int n = Integer.parseInt("42");
 		boolean b = new Boolean("true").booleanValue();
 		
-		byte b1 = new Scanner("16").nextByte();
+		byte b1 = new Scanner("20").nextByte();
 		int n1 = new Scanner("42").nextInt();
 		long l1 = new Scanner("1119919191").nextLong();
 		
