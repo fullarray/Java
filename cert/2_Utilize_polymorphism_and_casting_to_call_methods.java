@@ -1,6 +1,6 @@
 class Liquid{
 	void swirl(boolean clockwise){
-		System.out.println("Swirling Liquid");
+		System.out.println("Swirling Liquidw");
 	}
 }
 
