@@ -4,7 +4,6 @@ import java.util.*;
 public 1_Use_local_variable_type_inference{
 	public static main void(String [] args){
 		
-		//
 		// lambda on java 10
 		(String s1, String s2) -> s1 + s2;
 		
