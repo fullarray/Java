@@ -11,7 +11,7 @@ public objective_6_prepared_statements{
 		String url = "jdbc:mysql://localhost:3306/test-app-db?useSSL=false";
 		String user = "testappuser";
 		String password = "password";
-		String personName = "johndoe"
+		String personName = "johndo"
 		String sql = "INSERT INTO Person(Name) VALUES (?)";
 		
 		try(Connection con = DriveManager.getConnection(url,user,password);
