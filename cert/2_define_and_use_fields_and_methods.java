@@ -2,7 +2,6 @@ import java.io.*;
 
 class subject{
   String name = "";
-
   public void person(string name){
     this.name = name;
   }
