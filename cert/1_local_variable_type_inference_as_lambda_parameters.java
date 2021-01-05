@@ -7,7 +7,6 @@ public 1_Use_local_variable_type_inference{
 		// lambda on java 10
 		(String s1, String s2) -> s1 + s2;
 		
-		
 		//
 		// or, the below did not work in Java 10
 		//
