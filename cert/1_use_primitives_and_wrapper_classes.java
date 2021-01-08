@@ -16,7 +16,6 @@ public 1_use_primitives_and_wrapper_classes{
 		Short short1 = 45;
 		Long long1 = 8554;
 		Boolean bool = true;
-		
 		System.out.println(byte1);
 		System.out.println(long1);
 		System.out.println(num);
