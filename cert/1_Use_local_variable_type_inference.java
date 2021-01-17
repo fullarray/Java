@@ -3,7 +3,7 @@ import java.*;
 import java.util.*;
 public 1_Use_local_variable_type_inference{
 	public static main void(String [] args){
-		//
+		
 		// before java 10s
 		Path path = Paths.get("src/web.log");
 		try(Stream<String> lines = Files.lines(path)){
