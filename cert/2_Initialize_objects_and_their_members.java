@@ -5,7 +5,6 @@ class 2_Initialize_objects_and_their_members{
 	public 2_Initialize_objects_and_their_members(){
 		System.out.println("Public Constructor");
 	}
-	
 	static {
 		System.out.println("Static Initializer");
 	}
