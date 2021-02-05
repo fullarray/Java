@@ -1,5 +1,4 @@
 class 2_Create_and_use_enumerations{
-	
 	enum Animal {
 		DOG,
 		CAT,
