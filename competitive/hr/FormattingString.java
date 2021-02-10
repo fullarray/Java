@@ -13,7 +13,6 @@ public class FormattingString {
                 //Complete this line
                 int diff = 18 - s1.length();
                 System.out.println(s1 +""+String.format("%" + diff + "s", xpadded));
-                
             }
             System.out.println("================================");
 
