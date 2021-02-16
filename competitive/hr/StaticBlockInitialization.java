@@ -5,7 +5,6 @@ import java.math.*;
 import java.util.regex.*;
 
 public class StaticBlockInitialization {
-
     public static boolean flag = false;
     public static int B;
     public static int H;
