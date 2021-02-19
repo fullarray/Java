@@ -2,13 +2,11 @@ interface Animal{
 	public void animalSound();
 	public void sleep();
 }
-
 class Frog implements Animal{
 	public void animalSound(){
 		System.out.println("The frog says: we-quwik we-quwik");
 	}
 }
-
 class Dog implements Animal{
 	public void animalSound(){
 		System.out.println("The Dog says: bark bark");
