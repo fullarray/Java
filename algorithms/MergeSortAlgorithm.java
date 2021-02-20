@@ -3,7 +3,6 @@ public class MergeSortAlgorithm
 {
 	public static void main(String[] args)
 	{
-		//declare an unsorted arrays
 		Integer[] b = {2,4,6,7,9,1};
 		//Declare MergeSorting algorithm function first.
 		MergeSortProcessor(b);
