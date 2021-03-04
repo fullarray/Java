@@ -5,8 +5,10 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
   <name>app5 Maven Webapp</name>
+  
   <url>http://maven.apache.org</url>
- <properties>
+ 
+  <properties>
     <failOnMissingWebXml>false</failOnMissingWebXml>
   </properties><dependencies><dependency><groupId>junit</groupId>
       <artifactId>junit</artifactId>
