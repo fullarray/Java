@@ -7,7 +7,6 @@
 	<version>1.0-SNAPSHOT</version>
 	<name>SpringMVCHibernateCRUD Maven Webapp</name>
 	<url>http://maven.apache.org</url>
-       
     <!-- Specifyingthe Versions of Spring,Hiber,MySQL etc  And other jSP and JSTL-->
 	<!-- Specifying the Versions of Springs, Hiberante, MySQL etc  And other jSP and JSTL-->
     <properties>
