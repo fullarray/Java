@@ -1,5 +1,5 @@
 /*
-	Created by Jonathan H. and fullarray
+	Create by Jonathan H. and fullarray
 */
 import java.util.Base64;
 /*import javax.crypto.Cipher;
