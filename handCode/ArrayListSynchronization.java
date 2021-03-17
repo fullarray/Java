@@ -8,9 +8,13 @@ public class ArrayListSynchronization{
 		List<Integer> numbers = new ArrayList<Integer>();
 		numbers.add(34);
 		numbers.add(54);
+		
 		numbers.add(14);
+		
 		numbers.add(94);
+		
 		numbers.add(11);
+		
 		numbers = Collections.synchronizedList(numbers);
 		
 		synchronized(numbers){
