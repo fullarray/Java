@@ -2,7 +2,9 @@ package app2;
 
 
 import javax.servlet.http.HttpServletRequest;
+
 import org.apache.struts.action.ActionForm;
+
 import org.apache.struts.action.ActionMapping;
 
 public class LoginForm extends ActionForm {
