@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+	
 	<name>SalesToolTwo</name>
+	
 	<comment></comment>
+	
 	<projects>app	</projects>
 	<buildSpec><buildCommand><name>org.eclipse.jdt.core.javabuilder</name>
 			<arguments></arguments>
