@@ -3,6 +3,7 @@ public class QuickSortAlgorithm
 	public static void main(String[] args) 
 	{
 		// This is unsorted array
+		
 		Integer[] array = new Integer[] { 12, 13, 24, 10, 3, 6, 90, 70 };
 
 		// Let's sort using quick sort
