@@ -8,8 +8,11 @@
 <!-- You can turn off the Compile on Save (or Deploy on Save) setting -->
 <!-- in the project's Project Properties dialog box.-->
 <project name="ProductManagement" default="default" basedir=".">
+    
     <description>Builds, tests, and runs the project ProductManagement.</description>
+    
     <import file="nbproject/build-impl.xml"/>
+    
     <!--
 
     There exist several targets which are by default empty and which can be 
