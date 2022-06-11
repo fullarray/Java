@@ -35,7 +35,7 @@ public class Product {
      * A constant that defines a
      * {@link java.math.BigDecimal BigDecimal} value of the discount rate
      * <br>
-     * Discount rate is 10%
+     * Discount rate is 10%. Most of this comment was generated using automatically by netbeans IDE
      */
     public static final BigDecimal DISCOUNT_RATE = BigDecimal.valueOf(0.1);
     private int id;
